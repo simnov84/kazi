@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.doc1 {
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans';
+    text-align: start;
+    padding: 0 20%;
+    
+}
+.bar {
+    font-size: 1em;
+    text-align: left;
+    padding-top: 3%;
+}
+.about,.achieve {
+    padding-left: 3%;
+}
+.header {
+    padding-top: 15%;
+    padding-bottom: 25%;
+    text-align: center;
+}
+.name{
+    font-size: 3em;
+}
+.doc2 {
+    font-family: 'Open Sans';
+    text-align: start;
+    padding: 0 20%;
+    display: grid;
+    grid-template-columns: 1fr minmax(250px 1fr);
+    grid-template-areas: 
+    "a b"
+    "c b"
+    "d d";
+}
+.head {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.m1 {
+    grid-area: a;
+    padding-top: 15%;
+}
+.m2 {
+    grid-area: c;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+.image {
+    grid-area: b;
+    width: 85%;
+    padding-top: 25%;
+    padding-bottom: 15%;
+    padding-left: 30%;
+    min-width: 250px;
+}
+.buttons {
+    grid-area: d;
+    text-align: center;
+    padding-bottom: 10%;
+}
+.learn {
+    background-color: lightgray !important;
+    width: 160px !important;
+}
+.videos {
+    background-color: red !important;
+}
+.books {
+    background-color: rgb(255, 166, 0) !important;
+}
+.doc3 {
+    font-family: 'Open Sans';
+    background-color: black;
+    color: white;
+    padding: 5% 20%;
+    font-size: 1.8em;
+    font-weight: 800;
+    text-align: center;
+}
+.doc4 {
+    font-family: 'Open Sans';
+    padding: 0 10px;
+}
+.inln {
+    width: 40px;
+}
+.awards {
+    padding-right: 10px;
+    padding-left: 5px;
+    font-size: 1.5em;
+}
+.awrd {
+    display: flex;
+    padding: 3% 20%;
+    justify-content: space-evenly;
+}
+.cell {
+    font-size: 12px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.h7 {
+    font-size: 15px;
+    font-weight: 700;
+}
+.divide {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "a b";
+    padding: 5% 20%;
+}
+.poetry {
+    grid-area: a;
+    font-size: 1.5em;
+}
+.songs {
+    grid-area: b;
+    font-size: 1.5em;
+}
+.list1 {
+    font-size: 0.5em;
+    padding-top: 10%;
+}
+h4 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0 !important;
+}
+h4:before, h4:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+.doc5 {
+    font-family: 'Open Sans';
+    background-color: black;
+    color: white;
+    padding: 5% 20%;
+    display: grid;
+    font-size: 0.8em;
+    grid-template-columns: 1.5fr 1.5fr 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "a b c";
+}
+.x1 {
+    grid-area: a;
+    border-right: 1px solid white;
+}
+.x2 {
+    grid-area: b;
+    border-right: 1px solid white;
+    padding-left: 15%;
+}
+.x3 {
+    grid-area: c;
+    padding-left: 15%;
+}
+.h5{
+    font-size: 1.2em;
+    font-weight: 800 !important;
+}
+.blue1 {
+    color: rgb(55, 138, 233) !important;
+}
